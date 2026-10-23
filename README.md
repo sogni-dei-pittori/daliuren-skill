@@ -90,13 +90,13 @@ python scripts/paipan.py --day 辛亥 --jiang 辰 --shi 亥 --ming 申 --xingnia
 ## 安装到 DSH
 
 ```bash
-git clone https://github.com/<your-name>/daliuren-skill.git ~/.dsh/skills/daliuren
+git clone https://github.com/sogni-dei-pittori/daliuren-skill.git ~/.dsh/skills/daliuren
 ```
 
 Windows：
 
 ```powershell
-git clone https://github.com/<your-name>/daliuren-skill.git "$env:USERPROFILE\.dsh\skills\daliuren"
+git clone https://github.com/sogni-dei-pittori/daliuren-skill.git "$env:USERPROFILE\.dsh\skills\daliuren"
 ```
 
 放好后，DSH 会在提到大六壬、六壬、排盘、起课、断课、四课、三传、月将、贵人、天将、空亡、课体、应期、占卜时自动加载；也可以显式调用 `/daliuren`。
